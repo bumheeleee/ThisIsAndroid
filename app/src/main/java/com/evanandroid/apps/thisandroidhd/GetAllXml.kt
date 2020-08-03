@@ -106,6 +106,8 @@ class GetAllXml : AppCompatActivity() {
                     }
                 }
                 parserEvent = parser.next()
+
+                
             }
         }catch (e : Exception){
             status.setText("에러가 발생했습니다.")
